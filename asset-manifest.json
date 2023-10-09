@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/storyteller/static/css/main.1be0f7ba.css",
-    "main.js": "/storyteller/static/js/main.68a86a2c.js",
+    "main.js": "/storyteller/static/js/main.4a781e28.js",
     "static/js/787.1c2415eb.chunk.js": "/storyteller/static/js/787.1c2415eb.chunk.js",
     "static/media/Euclid Circular B Regular.ttf": "/storyteller/static/media/Euclid Circular B Regular.4a3055af2b5d3eb95690.ttf",
     "static/media/Euclid Circular B Bold.ttf": "/storyteller/static/media/Euclid Circular B Bold.f9b0ae2872dea44f65c3.ttf",
@@ -28,11 +28,11 @@
     "static/media/arrow-left.svg": "/storyteller/static/media/arrow-left.543b469b370440af8b1736cc879053dc.svg",
     "static/media/menu.svg": "/storyteller/static/media/menu.858cb885d8af018bf897f133d930f2fb.svg",
     "main.1be0f7ba.css.map": "/storyteller/static/css/main.1be0f7ba.css.map",
-    "main.68a86a2c.js.map": "/storyteller/static/js/main.68a86a2c.js.map",
+    "main.4a781e28.js.map": "/storyteller/static/js/main.4a781e28.js.map",
     "787.1c2415eb.chunk.js.map": "/storyteller/static/js/787.1c2415eb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1be0f7ba.css",
-    "static/js/main.68a86a2c.js"
+    "static/js/main.4a781e28.js"
   ]
 }
