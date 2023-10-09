@@ -1,0 +1,30 @@
+@import "./../../styles/variables.scss";
+
+.storyteller-sidebar {
+  width: 14.25rem;
+  min-width: 14.25rem;
+
+  .nav-menu {
+    height: 100%;
+    background-color: $dark-gray;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .storyteller-sidebar {
+    position: absolute;
+    z-index: 99;
+    height: inherit;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+
+    .nav-menu {
+      width: 14.25rem;
+      min-width: 14.25rem;
+    }
+
+    &.sidebar-hidden {
+      display: none;
+    }
+  }
+}

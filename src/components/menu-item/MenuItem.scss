@@ -1,0 +1,41 @@
+@import "./../../styles/variables.scss";
+
+.menu-item {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.25rem;
+
+  &.liniar-gradient {
+    height: 1px;
+    background: linear-gradient(90deg, $normal-gray 0%, $border-black 100%);
+
+    &:not(:first-child) {
+      margin: 1.25rem 0;
+    }
+
+    &:first-child {
+      margin-bottom: 1.25rem;
+    }
+  }
+
+  &:not(.liniar-gradient) {
+    padding: 1.125rem 1.25rem;
+    cursor: pointer;
+    gap: 0.625rem;
+    color: $all-white;
+
+    .icon {
+      width: 20px;
+    }
+
+    &:hover,
+    &.selected {
+      background-color: $hover-blue;
+    }
+
+    &.selected {
+      border-left: 4px solid $hover-border-blue;
+      padding-left: 1rem;
+    }
+  }
+}

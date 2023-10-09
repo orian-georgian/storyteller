@@ -1,0 +1,23 @@
+@import "./../../styles/variables.scss";
+
+.storyteller-header {
+  height: 3.75rem;
+  padding: 0 1.875rem;
+  background-color: $dark-gray;
+  gap: 1.875rem;
+
+  .user-avatar {
+    background-color: $dark-blue;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 3rem;
+    color: $all-white;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .storyteller-header {
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+}

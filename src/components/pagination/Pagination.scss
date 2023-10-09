@@ -1,0 +1,22 @@
+.storyteller-pagination {
+  gap: 30px;
+  justify-content: flex-end;
+
+  .text-box {
+    width: 60px;
+  }
+
+  .group-buttons {
+    .storyteller-button {
+      height: 36px;
+      padding: 10px;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .storyteller-pagination {
+    gap: 16px;
+    justify-content: center;
+  }
+}

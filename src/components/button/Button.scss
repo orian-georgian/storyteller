@@ -1,0 +1,91 @@
+@import "./../../styles/variables.scss";
+
+.storyteller-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 32px;
+  gap: 4px;
+  border: none;
+  padding: 6px 16px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 3px;
+  line-height: 14px;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+
+  &.text {
+    background: transparent;
+    padding: 0;
+    height: auto;
+
+    &.default {
+      color: $dark-gray;
+    }
+  }
+
+  &.contained {
+    color: $all-white;
+
+    &.success {
+      background: $text-green;
+    }
+
+    &.primary {
+      background: $text-blue;
+    }
+
+    &.danger {
+      background: $text-red;
+    }
+
+    &.default {
+      background: $dark-gray;
+    }
+  }
+
+  &.outlined {
+    background: transparent;
+    border: 1px solid;
+
+    &.success {
+      border-color: $text-green;
+      color: $text-green;
+    }
+
+    &.primary {
+      border-color: $text-blue;
+      color: $text-blue;
+    }
+
+    &.danger {
+      border-color: $text-red;
+      color: $text-red;
+    }
+
+    &.default {
+      border-color: $border-gray;
+      color: $dark-gray;
+    }
+  }
+
+  &.button-right {
+    border-radius: 0 4px 4px 0;
+  }
+
+  &.button-left {
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+  }
+}

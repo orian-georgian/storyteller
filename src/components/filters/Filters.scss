@@ -1,0 +1,17 @@
+@import "./../../styles/variables.scss";
+
+.stories-filters {
+  gap: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+  .stories-filters {
+    gap: 16px;
+    width: 100%;
+
+    .text-box,
+    .select-box {
+      flex: 1;
+    }
+  }
+}

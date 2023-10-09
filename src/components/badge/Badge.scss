@@ -1,0 +1,22 @@
+@import "./../../styles/variables.scss";
+
+.badge {
+  padding: 2px 7px;
+  font-size: 11px;
+  line-height: 14px;
+  font-weight: 700;
+  color: $all-white;
+  border-radius: 2.5px;
+
+  &.default {
+    background: $text-gray;
+  }
+
+  &.primary {
+    background: $text-blue;
+  }
+
+  &.success {
+    background: $text-green;
+  }
+}
