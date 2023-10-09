@@ -1,5 +1,5 @@
 import { Header, MainContent, Sidebar } from "./components";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 
 import MenuContextProvider from "./contexts/menu-context/MenuContextProvider";
 

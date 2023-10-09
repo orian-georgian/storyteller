@@ -6,6 +6,10 @@ const App_Routes = [
     component: Redirect,
   },
   {
+    path: "/storyteller",
+    component: Redirect,
+  },
+  {
     path: "/schedule",
     component: UnderConstruction,
   },
