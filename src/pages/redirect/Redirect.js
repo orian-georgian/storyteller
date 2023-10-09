@@ -6,7 +6,7 @@ export default function Redirect() {
 
   useEffect(() => {
     navigate("/stories");
-  }, []);
+  }, [navigate]);
 
   return null;
 }
