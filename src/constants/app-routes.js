@@ -1,9 +1,9 @@
-import { Stories, UnderConstruction } from "../pages";
+import { Stories, UnderConstruction, Redirect } from "../pages";
 
 const App_Routes = [
   {
     path: "/",
-    component: UnderConstruction,
+    component: Redirect,
   },
   {
     path: "/schedule",
@@ -22,7 +22,7 @@ const App_Routes = [
     component: UnderConstruction,
   },
   {
-    path: "/adds",
+    path: "/ads",
     component: UnderConstruction,
   },
   {

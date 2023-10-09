@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "react-query";
 import "./MainContent.scss";
 
 const queryClient = new QueryClient();
+const NotFound = () => "Not Found";
 
 export default function MainContent() {
   return (
@@ -14,6 +15,7 @@ export default function MainContent() {
           {AppRoutes.map(({ path, component }) => (
             <Route exact key={path} path={path} Component={component} />
           ))}
+          <Route path="*" Component={NotFound} />
         </Routes>
       </QueryClientProvider>
     </main>

@@ -26,12 +26,7 @@ export default function Pages() {
     <div className="pages-list flex-box align-center">
       {images.map((image) => (
         <div className="image-container" key={image}>
-          <img
-            className="story-image"
-            loading="lazy"
-            src={image}
-            alt="Story image"
-          />
+          <img className="story-image" loading="lazy" src={image} alt="Story" />
         </div>
       ))}
       {isLargeList && (
