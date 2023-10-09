@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/storyteller/static/css/main.1be0f7ba.css",
+    "main.js": "/storyteller/static/js/main.68a86a2c.js",
+    "static/js/787.1c2415eb.chunk.js": "/storyteller/static/js/787.1c2415eb.chunk.js",
+    "static/media/Euclid Circular B Regular.ttf": "/storyteller/static/media/Euclid Circular B Regular.4a3055af2b5d3eb95690.ttf",
+    "static/media/Euclid Circular B Bold.ttf": "/storyteller/static/media/Euclid Circular B Bold.f9b0ae2872dea44f65c3.ttf",
+    "static/media/logo.svg": "/storyteller/static/media/logo.e88cd37d6caaebc5841970fa11521049.svg",
+    "static/media/cms-users.svg": "/storyteller/static/media/cms-users.a8d76e866f444405fb3cb666c715ff1f.svg",
+    "static/media/roles.svg": "/storyteller/static/media/roles.71144dbc36d19f2d7118ee1b254e4ba7.svg",
+    "static/media/schedule.svg": "/storyteller/static/media/schedule.b132d8c93fe249933219a02f6a1462b3.svg",
+    "static/media/stories.svg": "/storyteller/static/media/stories.d80f8f7df75ed68c5fe46d513f28edf5.svg",
+    "static/media/ads.svg": "/storyteller/static/media/ads.360247a8289cd9093de58d92138a229d.svg",
+    "static/media/delete.svg": "/storyteller/static/media/delete.49de95911c0f0046f2a0ae5bf24714a0.svg",
+    "static/media/question-mark.svg": "/storyteller/static/media/question-mark.1ec475f5aff8ca6a76d89a1d6ac6584c.svg",
+    "static/media/apps.svg": "/storyteller/static/media/apps.544274186c7bae090a21b5af128db6bc.svg",
+    "static/media/user-guide.svg": "/storyteller/static/media/user-guide.c33611e7aafb4bd17c460ec852a919dc.svg",
+    "static/media/analytics.svg": "/storyteller/static/media/analytics.f8ce989cb27d97da284be4348d5093c4.svg",
+    "static/media/edit.svg": "/storyteller/static/media/edit.44cbcb8949bae456f45c73e904705a20.svg",
+    "static/media/engagement-units.svg": "/storyteller/static/media/engagement-units.342d8f6ee00a243c6739dc208c6d43fe.svg",
+    "index.html": "/storyteller/index.html",
+    "static/media/arrows-up-down.svg": "/storyteller/static/media/arrows-up-down.e6f59b8c469a47804b256aad7e3810ae.svg",
+    "static/media/arrow-down.svg": "/storyteller/static/media/arrow-down.4b6c855b9246b4379b5b2df842a6fecf.svg",
+    "static/media/arrow-up.svg": "/storyteller/static/media/arrow-up.3cd5bfa7b56bca32d5d639676448ea5c.svg",
+    "static/media/close.svg": "/storyteller/static/media/close.00920e681a2ca3e6d96250dda98d5dac.svg",
+    "static/media/arrow-right.svg": "/storyteller/static/media/arrow-right.2766c8bc3b7eed1f0516f641e36683f0.svg",
+    "static/media/plus.svg": "/storyteller/static/media/plus.c3a1b8101c2826388b94d2029dfffcdf.svg",
+    "static/media/arrow-left.svg": "/storyteller/static/media/arrow-left.543b469b370440af8b1736cc879053dc.svg",
+    "static/media/menu.svg": "/storyteller/static/media/menu.858cb885d8af018bf897f133d930f2fb.svg",
+    "main.1be0f7ba.css.map": "/storyteller/static/css/main.1be0f7ba.css.map",
+    "main.68a86a2c.js.map": "/storyteller/static/js/main.68a86a2c.js.map",
+    "787.1c2415eb.chunk.js.map": "/storyteller/static/js/787.1c2415eb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1be0f7ba.css",
+    "static/js/main.68a86a2c.js"
+  ]
+}
